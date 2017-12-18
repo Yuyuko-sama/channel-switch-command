@@ -1,4 +1,5 @@
-Channel Switch Command (Really creative name kappa)
+# Channel Switch Command 
+(Really creative name kappa)
 
 Easily change channels via command
 `!ch #`
