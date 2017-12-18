@@ -1,12 +1,14 @@
 const Command = require('Command')
-const StateTracker = require('tera-state-tracker')
 module.exports = function csc(dispatch) {
 const c = Command(dispatch)
-const s = StateTracker(dispatch)
+let czone = null;
+dispatch.hook('S_LOAD_TOPO', 1, (event) => {   		
+czone = event.zone
+})
 c.add('ch', (chan) => {
 c.message(`Moving to channel ${chan}`)
 dispatch.toServer('C_SELECT_CHANNEL', 1, {
 unk: 1,
-zone: s.client.zone,
+zone: czone,
 channel: parseInt(chan) - 1
 })})}
