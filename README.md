@@ -7,9 +7,9 @@ Example: `!ch 2`
 Command can be changed to what ever you like by changing the 'ch' in `c.add('ch', (chan) => {`
 
 
-Requires Command: https://github.com/pinkipi/command
-tera-state-tracker: https://github.com/kdiv/tera-state-tracker
-_tera-game-data(required by tera-state-tracker): https://github.com/kdiv/_tera-game-data
+Requires Command: https://github.com/pinkipi/command 
+tera-state-tracker: https://github.com/kdiv/tera-state-tracker 
+_tera-game-data(required by tera-state-tracker): https://github.com/kdiv/_tera-game-data 
 
 I use tera-state-tracker for a more clean base script, I will release another version soon:tm: that doesn't require it, but its nice to have and a few other modules also use it
 
