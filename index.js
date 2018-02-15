@@ -22,6 +22,4 @@ dispatch.toServer('C_SELECT_CHANNEL', 1, {
 unk: 1,
 zone: czone,
 channel: chanx
-})})
-
-}
+})})}
