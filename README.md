@@ -5,11 +5,8 @@ Easily change channels via command
 `!ch #`
 Example: `!ch 2`
 
-Command can be changed to what ever you like by changing the 'ch' in `c.add('ch', (chan) => {`
+Move to the next available with `!chx` if you are at the highest channel you will be moved to channel 1
+
+If used in the proxy chat channel or /8 remove the "!" from the command
 
 Requires Command: https://github.com/pinkipi/command
-
-If the module isn't working make sure C_SELECT_CHANNEL is mapped correctly in your regions protocol list
-NA(protocol.324670): C_SELECT_CHANNEL = 24735
-
-If your sure you have it mapped correctly and it still isn't working, make sure you removed the "-master" from any of the required modules!
