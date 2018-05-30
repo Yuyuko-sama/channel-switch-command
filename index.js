@@ -3,7 +3,7 @@ module.exports = function csc(dispatch) {
 const c = Command(dispatch)
 let czone = null;
 let chanx = null;
-dispatch.hook('S_LOAD_TOPO', 3, (event) => {   		
+dispatch.hook('S_LOAD_TOPO', 1, (event) => {   		
 czone = event.zone
 })
 dispatch.hook('S_CURRENT_CHANNEL', 2, (event) => {   		
