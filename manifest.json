@@ -5,8 +5,8 @@
     "README.md": "1c96282ae43f40b038fb29b2565724dc7ceccec9e9970404fbda310a91cdb6f0"
       },
       "defs": {
-        "S_CURRENT_CHANNEL": 6,
-		"S_LOAD_TOPO": 3,
-		"C_SELECT_CHANNEL": 1
+        "S_CURRENT_CHANNEL": 2,
+	"S_LOAD_TOPO": 3,
+	"C_SELECT_CHANNEL": 1
     }
 }
