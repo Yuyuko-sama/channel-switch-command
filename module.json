@@ -1,5 +1,4 @@
 {
-	"disableAutoUpdate": false,
-	"servers": ["https://raw.githubusercontent.com/Snugglez/channel-switch-command/master/"],
-	"supportUrl": ""
+    "servers": ["https://raw.githubusercontent.com/Snugglez/channel-switch-command/master/"],
+    "supportUrl": ""
 }
