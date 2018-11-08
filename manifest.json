@@ -1,12 +1,12 @@
 {
-  "files": {
-    "index.js": "51b3df8c4926804c268cc6ba8eff82cea22706257009c57aa68ddd985a9a3497",
-    "module.json": "4ab4419f28906718c4e8bae250a30ec40c6c3ae0e9fe7d593008aa63a91af999",
-    "README.md": "1c96282ae43f40b038fb29b2565724dc7ceccec9e9970404fbda310a91cdb6f0"
-      },
-      "defs": {
-        "S_CURRENT_CHANNEL": 2,
-	"S_LOAD_TOPO": 3,
-	"C_SELECT_CHANNEL": 1
-    }
+	"files": {
+		"README.md": "b44344ded2f43de71ca3865b0514dbff40b883af0bb404a103f697bf48dea3c0",
+		"index.js": "399d14d47031f4f124b2f6ad77402a6090aa303e90800266e018d30716a5c4f1",
+		"module.json": "3003da2d3d2840b14bdb30ba5837b78ec24a520a095b01fdb12caa1ab06bf649"
+	},
+	"defs": {
+		"C_SELECT_CHANNEL": 1,
+		"S_CURRENT_CHANNEL": 2,
+		"S_LOAD_TOPO": 3
+	}
 }
